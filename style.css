@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('./gamber.png') ;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pertanyaan {
+    text-align: center;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    padding: 40px;
+    margin-left: 40px ;
+    margin-right: 40px;
+    box-sizing: content-box;
+    background-color: rgb(230, 230, 98); opacity: 1;
+    background-size: cover;
+}
+
+.pillihan {
+    padding: 10px;
+    border-color: yellowgreen;
+    margin: 20px;
+}
+
+.start {
+    text-align: center;
+}
+
+#balik {
+    text-align: center;
+    background-origin: padding-box;
+
+}
+
+#hasil {
+    text-align: center;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    padding: 40px;
+    margin-left: 40px ;
+    margin-right: 40px;
+    box-sizing: content-box;
+    background-color: rgb(230, 230, 98); opacity: 1;
+    background-size: cover;
+}
